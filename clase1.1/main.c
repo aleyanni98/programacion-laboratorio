@@ -3,11 +3,6 @@
 
 int main()
 {
-int suma (int OP1, int OP2){
-int resultado;
-resultado=OP1+OP2;
-return resultado;
-}
 int OP1, OP2, res;
   printf("operando1:");
   scanf("%d",&OP1);
@@ -16,4 +11,9 @@ int OP1, OP2, res;
   res = suma ( OP1 , OP2 );
   printf("la suma es: %d",res);
     return 0;
+}
+int suma (int OP1, int OP2){
+int resultado;
+resultado=OP1+OP2;
+return resultado;
 }
